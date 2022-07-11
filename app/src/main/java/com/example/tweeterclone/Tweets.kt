@@ -3,6 +3,7 @@ package com.example.tweeterclone
 data class Tweets(
     var image: String,
     var username: String,
+    var handle: String,
     var time: String,
     var message: String,
     var comment: String,
